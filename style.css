@@ -40,6 +40,7 @@ body{
 }
 .price{
     display: flex;
+    margin-bottom: 10%;
 }
 .price-div{
     margin-top: 3%;
@@ -53,4 +54,10 @@ body{
 #price-color{
     background-color: rgb(250, 218, 218);
     border: 3px solid red;
+}
+input{
+   width: 90%;
+   border-left: 0;
+   border-right: 0;
+   border-top: 0;
 }
