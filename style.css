@@ -76,6 +76,7 @@ body {
     border-left: 0;
     border-right: 0;
     border-top: 0;
+    text-align: center;
 
 }
 
@@ -115,6 +116,36 @@ body {
     background-color: rgb(253, 237, 184);
 }
 
+.picture{
+    display: flex;
+
+}
+.picture img{
+    width: 100%;
+}
+.pic-div{
+    padding: 5% 5%;
+}
+#pic1{
+    width: 260px;
+    margin-left: 30px;
+}
+#pic2{
+    width: 273px;
+    margin-left: -87px;
+}
+#pic3{
+    width: 227px;
+    margin-left: -87px;
+}
+#pic4{
+    width: 257px;
+    margin-left: -87px;
+}
+#pic-head{
+    text-align: center;
+    margin-top: 5%;
+}
 
 
 .get-update {
@@ -181,6 +212,8 @@ footer {
 }
 
 .footer-head-p h2 {
-    font-style: italic;
+   
     color: rgb(241, 52, 52);
+    
+    font-family: 'Pacifico', cursive;
 }
